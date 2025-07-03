@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color:  hsl(0, 0%, 100%);
+    width: 28%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.container{
+    padding: 20px;
+}
+
+.one{
+    border-radius: 10px;
+    width: 97%;
+}
+
+h5{
+    background-color:  hsl(47, 88%, 63%);
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.two{
+    font-size: small;
+    color: hsl(0, 0%, 7%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color:  hsl(47, 88%, 63%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400;
+    font-weight: 700;
+
+}
+
+.three{
+    color:  hsl(0, 0%, 42%) ;
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.four{
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
