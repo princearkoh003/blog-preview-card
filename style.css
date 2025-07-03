@@ -41,11 +41,17 @@ h5{
 }
 
 h2{
-    color:  hsl(47, 88%, 63%);
+    color:  hsl(0, 0%, 7%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 400;
     font-weight: 700;
+    transition: 0.5s ease-in-out;
 
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .three{
@@ -81,7 +87,16 @@ h2{
     }
     h2 {
         font-size: 1.2rem;
+        transform: 0.5s ease-in-out;
     }
+
+    h2:hover {
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
+
+
+
     .profile-card {
         margin-top: 14px;
     }
@@ -93,7 +108,7 @@ h2{
 }
 
 /* Desktop: 1440px and up */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .main {
         width: 28%;
         max-width: 420px;
@@ -118,4 +133,4 @@ h2{
         height: 22px;
         font-size: 1rem;
     }
-}
+} */
